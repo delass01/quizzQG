@@ -78,22 +78,8 @@
   <!-- Contenu dynamique ici -->
 </main>
 
+<script src="quizz-data.js"></script>
 <script>
-const quizzData = {
-  'Culture G': [
-    { question: "Quel est le plus long fleuve du monde ?", options: ["Nil", "Amazone", "Yangtsé", "Mississippi"], answer: 1 },
-    { question: "Combien de continents sur Terre ?", options: ["5", "6", "7", "8"], answer: 2 }
-  ],
-  'Histoire': [
-    { question: "En quelle année a eu lieu la chute du mur de Berlin ?", options: ["1987", "1989", "1991", "1993"], answer: 1 },
-    { question: "Qui a été le premier président de la Ve République française ?", options: ["Pompidou", "Mitterrand", "De Gaulle", "Chirac"], answer: 2 }
-  ],
-  'Animaux': [
-    { question: "Quel animal est le plus rapide ?", options: ["Guépard", "Aigle", "Lièvre", "Antilope"], answer: 0 },
-    { question: "Quel est le plus grand mammifère marin ?", options: ["Requin blanc", "Orque", "Baleine bleue", "Dauphin"], answer: 2 }
-  ]
-};
-
 let currentCategory = null;
 let currentQuestionIndex = 0;
 let score = 0;
@@ -150,3 +136,4 @@ showCategories();
 
 </body>
 </html>
+
